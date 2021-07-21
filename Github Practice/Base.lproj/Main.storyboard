@@ -192,7 +192,7 @@
         <!--Goals-->
         <scene sceneID="e0Q-yp-bEw">
             <objects>
-                <tableViewController id="cMq-6o-M6O" sceneMemberID="viewController">
+                <tableViewController id="cMq-6o-M6O" customClass="GoalTableViewController" customModule="Github_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="vXJ-PC-bv3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
