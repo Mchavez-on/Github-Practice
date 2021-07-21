@@ -8,17 +8,27 @@
 import UIKit
 
 class GoalTableViewController: UITableViewController {
+    var goals: [Goal] = []
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        goals = createGoals()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+    func createGoals() -> [Goal] {
+        let swift = Goal()
+        swift.name = "Learn Swift"
 
+
+        let laundry = Goal()
+        laundry.name = "Do the laundry"
+        // important is set to false by default
+
+        return [swift, laundry]
+    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -28,26 +38,28 @@ class GoalTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return goals.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        
+        let goal = goals[indexPath.row]
 
         // Configure the cell...
 
         return cell
     }
-    */
+    
 
-    /*
+    
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         // Return false if you do not want the specified item to be editable.
         return true
     }
-    */
+    
 
     /*
     // Override to support editing the table view.
