@@ -290,10 +290,10 @@
             </objects>
             <point key="canvasLocation" x="820" y="654"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Goal View Controller-->
         <scene sceneID="ZWy-pY-X5l">
             <objects>
-                <viewController id="YlP-Sf-Mfx" sceneMemberID="viewController">
+                <viewController id="YlP-Sf-Mfx" customClass="AddGoalViewController" customModule="Github_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DOZ-Wj-XDh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -338,11 +338,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVL-kr-r53">
+                                <rect key="frame" x="177" y="685" width="61" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add goal"/>
+                                <connections>
+                                    <action selector="addTapped:" destination="YlP-Sf-Mfx" eventType="touchUpInside" id="79Y-Eo-Elk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="w1M-rz-6Lf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="co0-d8-6FX"/>
+                    <connections>
+                        <outlet property="meaningTextField" destination="Asq-Is-hKz" id="tyF-MT-elC"/>
+                        <outlet property="nameTextField" destination="OM1-xC-xrj" id="ccC-R3-Q0o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kjv-mx-U5G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

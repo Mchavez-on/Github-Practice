@@ -18,6 +18,7 @@
 		866022C626A7678F00CE8F59 /* Github_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866022C526A7678F00CE8F59 /* Github_PracticeUITests.swift */; };
 		867F115526A8AA1F005D84B1 /* GoalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F115426A8AA1F005D84B1 /* GoalTableViewController.swift */; };
 		867F115726A8B75E005D84B1 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F115626A8B75E005D84B1 /* Goal.swift */; };
+		867F115926A8C04A005D84B1 /* AddGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F115826A8C04A005D84B1 /* AddGoalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		866022C726A7678F00CE8F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		867F115426A8AA1F005D84B1 /* GoalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewController.swift; sourceTree = "<group>"; };
 		867F115626A8B75E005D84B1 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		867F115826A8C04A005D84B1 /* AddGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				866022A226A7678800CE8F59 /* SceneDelegate.swift */,
 				866022A426A7678800CE8F59 /* ViewController.swift */,
 				866022A626A7678800CE8F59 /* Main.storyboard */,
+				867F115826A8C04A005D84B1 /* AddGoalViewController.swift */,
 				867F115626A8B75E005D84B1 /* Goal.swift */,
 				867F115426A8AA1F005D84B1 /* GoalTableViewController.swift */,
 				866022AC26A7678E00CE8F59 /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867F115926A8C04A005D84B1 /* AddGoalViewController.swift in Sources */,
 				866022A526A7678800CE8F59 /* ViewController.swift in Sources */,
 				866022AB26A7678800CE8F59 /* Github_Practice.xcdatamodeld in Sources */,
 				867F115526A8AA1F005D84B1 /* GoalTableViewController.swift in Sources */,

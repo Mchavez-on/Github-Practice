@@ -9,4 +9,6 @@ import UIKit
 
 class Goal {
     var name  = ""
+    //UNSURE OF THIS CODE - change made since I last worked with group
+    var meaning = ""
 }

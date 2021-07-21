@@ -88,14 +88,19 @@ class GoalTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
+    //MORE CHANGE from lines 96-99
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
+        if let addVC = segue.destination as? AddGoalViewController {
         // Pass the selected object to the new view controller.
+            addVC.previousVC = self
+        }
+        
     }
-    */
+    
 
 }
