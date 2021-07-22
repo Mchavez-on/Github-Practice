@@ -23,6 +23,7 @@
 		867F115526A8AA1F005D84B1 /* GoalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F115426A8AA1F005D84B1 /* GoalTableViewController.swift */; };
 		867F115726A8B75E005D84B1 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F115626A8B75E005D84B1 /* Goal.swift */; };
 		867F115926A8C04A005D84B1 /* AddGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F115826A8C04A005D84B1 /* AddGoalViewController.swift */; };
+		86F3241A26AA15450091E99F /* PomodoroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3241926AA15450091E99F /* PomodoroViewController.swift */; };
 		A011EC7F26A90A48006CBF0A /* CompleteGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011EC7E26A90A48006CBF0A /* CompleteGoalViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		867F115426A8AA1F005D84B1 /* GoalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewController.swift; sourceTree = "<group>"; };
 		867F115626A8B75E005D84B1 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 		867F115826A8C04A005D84B1 /* AddGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
+		86F3241926AA15450091E99F /* PomodoroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroViewController.swift; sourceTree = "<group>"; };
 		A011EC7E26A90A48006CBF0A /* CompleteGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteGoalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 				866022A226A7678800CE8F59 /* SceneDelegate.swift */,
 				866022A426A7678800CE8F59 /* ViewController.swift */,
 				866022A626A7678800CE8F59 /* Main.storyboard */,
+				86F3241926AA15450091E99F /* PomodoroViewController.swift */,
 				4474E80E26A93A7D009224EA /* Milestone.swift */,
 				4474E80C26A93A4D009224EA /* MilestoneTableViewController.swift */,
 				A011EC7E26A90A48006CBF0A /* CompleteGoalViewController.swift */,
@@ -297,6 +300,7 @@
 				867F115726A8B75E005D84B1 /* Goal.swift in Sources */,
 				4474E80F26A93A7D009224EA /* Milestone.swift in Sources */,
 				866022A326A7678800CE8F59 /* SceneDelegate.swift in Sources */,
+				86F3241A26AA15450091E99F /* PomodoroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

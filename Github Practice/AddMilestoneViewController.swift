@@ -28,7 +28,8 @@ class AddMilestoneViewController: UIViewController {
             
             try? context.save()
             
-            navigationController?.popViewController(animated: true)
+            performSegue(withIdentifier: "addMilestoneToList", sender: nil)
+            //navigationController?.popViewController(animated: true)
         }
     }
     

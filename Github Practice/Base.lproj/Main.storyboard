@@ -159,11 +159,11 @@
             </objects>
             <point key="canvasLocation" x="820" y="1382"/>
         </scene>
-        <!--View Controller-->
+        <!--Pomodoro View Controller-->
         <scene sceneID="sjw-xa-aw4">
             <objects>
-                <viewController id="IbQ-Mu-Ta5" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="80a-ya-bao">
+                <viewController id="IbQ-Mu-Ta5" customClass="PomodoroViewController" customModule="Github_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="80a-ya-bao" customClass="Pomodoro">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -181,6 +181,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Us-zx-wKz">
+                                <rect key="frame" x="169" y="310" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start Timer"/>
+                                <connections>
+                                    <action selector="startTimer:" destination="IbQ-Mu-Ta5" eventType="touchUpInside" id="XtO-l9-776"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="s4D-Ee-dnr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -394,7 +402,7 @@
                     <connections>
                         <outlet property="meaningTextField" destination="Asq-Is-hKz" id="tyF-MT-elC"/>
                         <outlet property="nameTextField" destination="OM1-xC-xrj" id="ccC-R3-Q0o"/>
-                        <segue destination="icz-z3-4I6" kind="presentation" modalPresentationStyle="fullScreen" id="EWx-ZO-Wy0"/>
+                        <segue destination="icz-z3-4I6" kind="presentation" identifier="addGoalToList" modalPresentationStyle="fullScreen" id="EWx-ZO-Wy0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kjv-mx-U5G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -425,7 +433,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Milestones" id="6cm-x4-leC">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.backward" catalog="system" id="qZS-TL-Nmo"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.backward" catalog="system" id="qZS-TL-Nmo">
+                            <connections>
+                                <segue destination="YlP-Sf-Mfx" kind="presentation" modalPresentationStyle="fullScreen" id="Pit-Ch-Mrd"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="qws-Tj-d2n">
                             <connections>
                                 <segue destination="pzD-gi-xDX" kind="presentation" modalPresentationStyle="fullScreen" id="bf9-x8-iTq"/>
@@ -433,12 +445,12 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="XTD-jI-fw5" kind="presentation" identifier="moveToCompleteMilestone" modalPresentationStyle="fullScreen" id="tav-jb-hb6"/>
+                        <segue destination="XTD-jI-fw5" kind="show" identifier="moveToCompleteMilestone" id="tav-jb-hb6"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gVC-cA-S6b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3739.130434782609" y="-83.035714285714278"/>
+            <point key="canvasLocation" x="3738" y="-83"/>
         </scene>
         <!--Complete Milestone View Controller-->
         <scene sceneID="Ubi-Oq-2fn">
@@ -467,6 +479,7 @@
                         <viewLayoutGuide key="safeArea" id="mk2-5e-p6p"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="QvR-oE-HUd"/>
                     <connections>
                         <outlet property="milestoneLabel" destination="aPW-wK-MCr" id="CZA-0e-AN9"/>
                     </connections>
@@ -510,6 +523,7 @@
                     </view>
                     <connections>
                         <outlet property="titleTextField" destination="u1N-bG-fur" id="JoJ-hQ-w3W"/>
+                        <segue destination="C9U-2f-lfL" kind="presentation" identifier="addMilestoneToList" modalPresentationStyle="fullScreen" id="Y17-p6-CfW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UVe-hg-Sjm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -556,7 +570,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Y17-p6-CfW"/>
         <segue reference="EWx-ZO-Wy0"/>
+        <segue reference="Pit-Ch-Mrd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
