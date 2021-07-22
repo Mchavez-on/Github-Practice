@@ -42,7 +42,7 @@ class MilestoneTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifierMilestone", for: indexPath)
 
         let milestone = milestones[indexPath.row]
         cell.textLabel?.text = milestone.name

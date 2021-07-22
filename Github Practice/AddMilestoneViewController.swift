@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class AddMilestoneViewController: UIViewController {
     var milestones : [Milestone] = []

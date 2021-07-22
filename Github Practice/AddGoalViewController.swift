@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class AddGoalViewController: UIViewController {
     
@@ -21,8 +22,9 @@ class AddGoalViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func addTapped(_ sender: Any) {
+        print("hey! button was tapped")
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
-            
+            print("inside context statement")
 
             // we are creating a new ToDoCD object here, naming it toDo
             let goal = GoalCD(entity: GoalCD.entity(), insertInto: context)
@@ -37,8 +39,8 @@ class AddGoalViewController: UIViewController {
             }
 
             try? context.save()
-
-            navigationController?.popViewController(animated: true)
+            performSegue(withIdentifier: "addGoalToList", sender: nil)
+//            navigationController?.popViewController(animated: true)
           }
 
         

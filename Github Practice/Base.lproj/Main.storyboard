@@ -320,7 +320,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cHg-1J-bER" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="818.84057971014499" y="653.57142857142856"/>
+            <point key="canvasLocation" x="862" y="686"/>
         </scene>
         <!--Add Goal View Controller-->
         <scene sceneID="ZWy-pY-X5l">
@@ -372,11 +372,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eN-vc-ecO">
-                                <rect key="frame" x="150" y="543" width="106" height="30"/>
+                                <rect key="frame" x="150" y="543" width="106" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add milestones"/>
                                 <connections>
-                                    <segue destination="C9U-2f-lfL" kind="presentation" modalPresentationStyle="fullScreen" id="RyK-wh-c94"/>
+                                    <segue destination="C9U-2f-lfL" kind="presentation" modalPresentationStyle="fullScreen" id="5dS-wi-tM5"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Divide your goal into smaller tasks by adding milestones!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRZ-R1-mAr">
@@ -394,6 +394,7 @@
                     <connections>
                         <outlet property="meaningTextField" destination="Asq-Is-hKz" id="tyF-MT-elC"/>
                         <outlet property="nameTextField" destination="OM1-xC-xrj" id="ccC-R3-Q0o"/>
+                        <segue destination="icz-z3-4I6" kind="presentation" modalPresentationStyle="fullScreen" id="EWx-ZO-Wy0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kjv-mx-U5G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -409,7 +410,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="vu6-Es-MTi">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifierMilestone" id="vu6-Es-MTi">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vu6-Es-MTi" id="Z0s-cc-dLr">
@@ -539,6 +540,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C9U-2f-lfL" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="bSl-vT-o3i"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="80Z-Jw-Otz">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -553,6 +555,9 @@
             <point key="canvasLocation" x="2828.985507246377" y="-83.035714285714278"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="EWx-ZO-Wy0"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="plus" catalog="system" width="128" height="113"/>
