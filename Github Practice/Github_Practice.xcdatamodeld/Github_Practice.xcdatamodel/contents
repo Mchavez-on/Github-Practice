@@ -4,7 +4,11 @@
         <attribute name="meaning" attributeType="String"/>
         <attribute name="name" attributeType="String"/>
     </entity>
+    <entity name="MilestoneCD" representedClassName="MilestoneCD" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String"/>
+    </entity>
     <elements>
         <element name="GoalCD" positionX="-63" positionY="-18" width="128" height="59"/>
+        <element name="MilestoneCD" positionX="-63" positionY="0" width="128" height="44"/>
     </elements>
 </model>

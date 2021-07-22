@@ -10,14 +10,17 @@ import UIKit
 class CompleteGoalViewController: UIViewController {
 
     var previousVC = GoalTableViewController()
-      var selectedGoal : GoalCD?
-    @IBOutlet weak var nameText: UITextField!
-    @IBOutlet weak var nameTextLabel: UITextField!
+    var selectedGoal : GoalCD?
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var meaningLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        nameLabel.text = selectedGoal?.name
+        meaningLabel.text = selectedGoal?.meaning
+        
     }
     @IBAction func completeTapped(_ sender: Any) {
             if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {

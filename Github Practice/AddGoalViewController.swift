@@ -22,16 +22,18 @@ class AddGoalViewController: UIViewController {
     }
     @IBAction func addTapped(_ sender: Any) {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            
 
             // we are creating a new ToDoCD object here, naming it toDo
             let goal = GoalCD(entity: GoalCD.entity(), insertInto: context)
-
             // if the titleTextField has text, we will call that text titleText
             if let nameText = nameTextField.text {
                 // we will take the titleText and assign that value to toDo.name
                 // this .name and .important came from the attributes you typed in on the Core Data page!
                 goal.name = nameText
-                goal.meaning = //UNSURE
+            }
+            if let meaningText = meaningTextField.text {
+                goal.meaning = meaningText
             }
 
             try? context.save()

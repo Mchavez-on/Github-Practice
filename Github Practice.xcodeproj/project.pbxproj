@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4474E80D26A93A4D009224EA /* MilestoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474E80C26A93A4D009224EA /* MilestoneTableViewController.swift */; };
+		4474E80F26A93A7D009224EA /* Milestone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474E80E26A93A7D009224EA /* Milestone.swift */; };
+		4474E81126A94A5F009224EA /* AddMilestoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474E81026A94A5F009224EA /* AddMilestoneViewController.swift */; };
+		4474E81326A94FBA009224EA /* CompleteMilestoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474E81226A94FBA009224EA /* CompleteMilestoneViewController.swift */; };
 		866022A126A7678800CE8F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866022A026A7678800CE8F59 /* AppDelegate.swift */; };
 		866022A326A7678800CE8F59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866022A226A7678800CE8F59 /* SceneDelegate.swift */; };
 		866022A526A7678800CE8F59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866022A426A7678800CE8F59 /* ViewController.swift */; };
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4474E80C26A93A4D009224EA /* MilestoneTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneTableViewController.swift; sourceTree = "<group>"; };
+		4474E80E26A93A7D009224EA /* Milestone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milestone.swift; sourceTree = "<group>"; };
+		4474E81026A94A5F009224EA /* AddMilestoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMilestoneViewController.swift; sourceTree = "<group>"; };
+		4474E81226A94FBA009224EA /* CompleteMilestoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteMilestoneViewController.swift; sourceTree = "<group>"; };
 		8660229D26A7678800CE8F59 /* Github Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		866022A026A7678800CE8F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		866022A226A7678800CE8F59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,10 +117,14 @@
 		8660229F26A7678800CE8F59 /* Github Practice */ = {
 			isa = PBXGroup;
 			children = (
+				4474E81226A94FBA009224EA /* CompleteMilestoneViewController.swift */,
+				4474E81026A94A5F009224EA /* AddMilestoneViewController.swift */,
 				866022A026A7678800CE8F59 /* AppDelegate.swift */,
 				866022A226A7678800CE8F59 /* SceneDelegate.swift */,
 				866022A426A7678800CE8F59 /* ViewController.swift */,
 				866022A626A7678800CE8F59 /* Main.storyboard */,
+				4474E80E26A93A7D009224EA /* Milestone.swift */,
+				4474E80C26A93A4D009224EA /* MilestoneTableViewController.swift */,
 				A011EC7E26A90A48006CBF0A /* CompleteGoalViewController.swift */,
 				867F115826A8C04A005D84B1 /* AddGoalViewController.swift */,
 				867F115626A8B75E005D84B1 /* Goal.swift */,
@@ -276,10 +288,14 @@
 				867F115926A8C04A005D84B1 /* AddGoalViewController.swift in Sources */,
 				866022A526A7678800CE8F59 /* ViewController.swift in Sources */,
 				866022AB26A7678800CE8F59 /* Github_Practice.xcdatamodeld in Sources */,
+				4474E81126A94A5F009224EA /* AddMilestoneViewController.swift in Sources */,
+				4474E81326A94FBA009224EA /* CompleteMilestoneViewController.swift in Sources */,
 				867F115526A8AA1F005D84B1 /* GoalTableViewController.swift in Sources */,
+				4474E80D26A93A4D009224EA /* MilestoneTableViewController.swift in Sources */,
 				A011EC7F26A90A48006CBF0A /* CompleteGoalViewController.swift in Sources */,
 				866022A126A7678800CE8F59 /* AppDelegate.swift in Sources */,
 				867F115726A8B75E005D84B1 /* Goal.swift in Sources */,
+				4474E80F26A93A7D009224EA /* Milestone.swift in Sources */,
 				866022A326A7678800CE8F59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
