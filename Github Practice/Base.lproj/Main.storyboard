@@ -220,17 +220,17 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="mPr-2i-Oyz" kind="show" id="JoH-EV-QSM"/>
+                        <segue destination="mPr-2i-Oyz" kind="show" identifier="moveToComplete" id="JoH-EV-QSM"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S7i-5c-LXU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="820.28985507246387" y="-60.267857142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Complete Goal View Controller-->
         <scene sceneID="F7Z-jR-xuK">
             <objects>
-                <viewController id="mPr-2i-Oyz" sceneMemberID="viewController">
+                <viewController id="mPr-2i-Oyz" customClass="CompleteGoalViewController" customModule="Github_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qmp-dt-MyR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -279,12 +279,19 @@
                                 <rect key="frame" x="141" y="720" width="131" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Mark as completed"/>
+                                <connections>
+                                    <action selector="completeTapped:" destination="mPr-2i-Oyz" eventType="touchUpInside" id="Dra-FU-H7C"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pob-T9-yLu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="46T-Ew-1qk"/>
+                    <connections>
+                        <outlet property="nameText" destination="g21-pR-BDf" id="NAX-Jj-nkb"/>
+                        <outlet property="nameTextLabel" destination="ltr-wx-zc8" id="EEn-VP-EYt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cHg-1J-bER" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

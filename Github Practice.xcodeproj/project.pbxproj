@@ -19,6 +19,7 @@
 		867F115526A8AA1F005D84B1 /* GoalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F115426A8AA1F005D84B1 /* GoalTableViewController.swift */; };
 		867F115726A8B75E005D84B1 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F115626A8B75E005D84B1 /* Goal.swift */; };
 		867F115926A8C04A005D84B1 /* AddGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867F115826A8C04A005D84B1 /* AddGoalViewController.swift */; };
+		A011EC7F26A90A48006CBF0A /* CompleteGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A011EC7E26A90A48006CBF0A /* CompleteGoalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		867F115426A8AA1F005D84B1 /* GoalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewController.swift; sourceTree = "<group>"; };
 		867F115626A8B75E005D84B1 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
 		867F115826A8C04A005D84B1 /* AddGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewController.swift; sourceTree = "<group>"; };
+		A011EC7E26A90A48006CBF0A /* CompleteGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteGoalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				866022A226A7678800CE8F59 /* SceneDelegate.swift */,
 				866022A426A7678800CE8F59 /* ViewController.swift */,
 				866022A626A7678800CE8F59 /* Main.storyboard */,
+				A011EC7E26A90A48006CBF0A /* CompleteGoalViewController.swift */,
 				867F115826A8C04A005D84B1 /* AddGoalViewController.swift */,
 				867F115626A8B75E005D84B1 /* Goal.swift */,
 				867F115426A8AA1F005D84B1 /* GoalTableViewController.swift */,
@@ -274,6 +277,7 @@
 				866022A526A7678800CE8F59 /* ViewController.swift in Sources */,
 				866022AB26A7678800CE8F59 /* Github_Practice.xcdatamodeld in Sources */,
 				867F115526A8AA1F005D84B1 /* GoalTableViewController.swift in Sources */,
+				A011EC7F26A90A48006CBF0A /* CompleteGoalViewController.swift in Sources */,
 				866022A126A7678800CE8F59 /* AppDelegate.swift in Sources */,
 				867F115726A8B75E005D84B1 /* Goal.swift in Sources */,
 				866022A326A7678800CE8F59 /* SceneDelegate.swift in Sources */,

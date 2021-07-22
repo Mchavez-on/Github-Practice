@@ -99,8 +99,21 @@ class GoalTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
             addVC.previousVC = self
         }
-        
-    }
     
+    if let completeVC = segue.destination as? CompleteGoalViewController {
+            if let goal = sender as? Goal {
+              completeVC.selectedGoal = goal
+              completeVC.previousVC = self
+            }
+        }
+    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+      // this gives us a single ToDo
+      let goal = goals[indexPath.row]
+
+      performSegue(withIdentifier: "moveToComplete", sender: goal)
+    }
+
 
 }
