@@ -15,26 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbS-F9-OTP">
-                                <rect key="frame" x="103" y="352" width="201" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.80000000000000004" green="0.83529411764705885" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="27"/>
-                                <state key="normal" title="Goals 💭">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="icz-z3-4I6" kind="presentation" modalPresentationStyle="fullScreen" id="vWD-wj-U1Y"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJ4-eF-28H">
-                                <rect key="frame" x="103" y="613" width="201" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJ4-eF-28H">
+                                <rect key="frame" x="110" y="587" width="194" height="44"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="0.83529411764705885" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="27"/>
                                 <state key="normal" title="Work-Flow 💻">
@@ -49,16 +31,40 @@
                                     <segue destination="WeU-UD-bRh" kind="presentation" modalPresentationStyle="fullScreen" id="fox-68-GYL"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Procrastination Extermination" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMo-84-v3L">
-                                <rect key="frame" x="20" y="162" width="374" height="112"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Procrastination Extermination" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMo-84-v3L">
+                                <rect key="frame" x="65" y="160" width="284" height="75.5"/>
                                 <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="32"/>
                                 <color key="textColor" red="0.73581541427458175" green="0.43356559005266165" blue="0.1381075356769714" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbS-F9-OTP">
+                                <rect key="frame" x="110" y="363" width="194" height="44"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.83529411764705885" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="27"/>
+                                <state key="normal" title="Goals 💭">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="icz-z3-4I6" kind="presentation" modalPresentationStyle="fullScreen" id="vWD-wj-U1Y"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.99607843137254903" green="0.98039215686274506" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MMo-84-v3L" secondAttribute="trailing" constant="56" id="bD9-bh-iOY"/>
+                            <constraint firstItem="MMo-84-v3L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="116" id="1TO-qi-md2"/>
+                            <constraint firstItem="bJ4-eF-28H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="EaD-nf-Z3S"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bJ4-eF-28H" secondAttribute="trailing" constant="110" id="J8Q-mW-4Ab"/>
+                            <constraint firstItem="bJ4-eF-28H" firstAttribute="top" secondItem="jbS-F9-OTP" secondAttribute="bottom" constant="180" id="PvR-8u-0HW"/>
+                            <constraint firstItem="jbS-F9-OTP" firstAttribute="top" secondItem="MMo-84-v3L" secondAttribute="bottom" constant="127.5" id="VWe-9d-MfO"/>
+                            <constraint firstItem="jbS-F9-OTP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="Yti-Um-v9L"/>
+                            <constraint firstItem="MMo-84-v3L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="oU1-Gp-UKy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MMo-84-v3L" secondAttribute="trailing" constant="65" id="tg7-o6-oRo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jbS-F9-OTP" secondAttribute="trailing" constant="110" id="xRb-9n-PbI"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -71,43 +77,31 @@
             <objects>
                 <viewController id="WeU-UD-bRh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z5T-NE-Od6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How You Work ⏱️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RP8-0Q-0Gr">
-                                <rect key="frame" x="105" y="133" width="208" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How You Work ⏱️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RP8-0Q-0Gr">
+                                <rect key="frame" x="97" y="186" width="220" height="31"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="26"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you work better by working in long intervals with short breaks, this one's for you!" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNt-CH-97f">
-                                <rect key="frame" x="40" y="273" width="305" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you work better by working in long intervals with short breaks, this one's for you!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNt-CH-97f">
+                                <rect key="frame" x="52" y="378.5" width="310" height="64"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you work better by working in short intervals with short breaks, this one's for you!" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vra-kc-ULK">
-                                <rect key="frame" x="40" y="564" width="301" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you work better by working in short intervals with short breaks, this one's for you!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vra-kc-ULK">
+                                <rect key="frame" x="56" y="622.5" width="302" height="64"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBW-mN-zGG">
-                                <rect key="frame" x="40" y="44" width="45" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="chevron.left" catalog="system"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="cT9-AV-yMp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opU-7L-lVK">
-                                <rect key="frame" x="41" y="231" width="103" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opU-7L-lVK">
+                                <rect key="frame" x="94" y="329.5" width="226" height="41"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="24"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Long Intervals"/>
                                 <userDefinedRuntimeAttributes>
@@ -119,25 +113,22 @@
                                     <segue destination="I7G-NC-85a" kind="presentation" modalPresentationStyle="fullScreen" id="YLq-n2-MFn"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Work for 50 minutes, then rest for 10 minutes!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfI-ur-iTv">
-                                <rect key="frame" x="41" y="360" width="300" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work for 50 minutes, then rest for 10 minutes!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfI-ur-iTv">
+                                <rect key="frame" x="55" y="450.5" width="304" height="42.5"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Work for 25 minutes, then rest for 5 minutes!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0K5-0r-hpW">
-                                <rect key="frame" x="43" y="660" width="302" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work for 25 minutes, then rest for 5 minutes!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0K5-0r-hpW">
+                                <rect key="frame" x="56" y="694.5" width="302" height="42.5"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lH6-9D-B6i">
-                                <rect key="frame" x="43" y="528" width="82" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lH6-9D-B6i">
+                                <rect key="frame" x="94" y="557" width="226" height="41"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="24"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Pomodoro"/>
                                 <userDefinedRuntimeAttributes>
@@ -149,16 +140,56 @@
                                     <segue destination="IbQ-Mu-Ta5" kind="presentation" modalPresentationStyle="fullScreen" id="CwK-QX-rY5"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What do you prefer?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7w-gz-eXT">
-                                <rect key="frame" x="20" y="171" width="256" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you prefer?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7w-gz-eXT">
+                                <rect key="frame" x="77" y="254" width="260" height="27.5"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="23"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBW-mN-zGG">
+                                <rect key="frame" x="30" y="84" width="88" height="22"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="0.97936870249999997" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title=" Home" image="chevron.left" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="cT9-AV-yMp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lkx-vj-u6D"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vra-kc-ULK" firstAttribute="leading" secondItem="lkx-vj-u6D" secondAttribute="leading" constant="56" id="0RU-tD-gnT"/>
+                            <constraint firstItem="zNt-CH-97f" firstAttribute="leading" secondItem="lkx-vj-u6D" secondAttribute="leading" constant="52" id="0wH-GR-0Dj"/>
+                            <constraint firstItem="lkx-vj-u6D" firstAttribute="trailing" secondItem="vra-kc-ULK" secondAttribute="trailing" constant="56" id="3OP-mC-41g"/>
+                            <constraint firstItem="XfI-ur-iTv" firstAttribute="leading" secondItem="lkx-vj-u6D" secondAttribute="leading" constant="55" id="9OM-9x-KpB"/>
+                            <constraint firstItem="lH6-9D-B6i" firstAttribute="top" secondItem="XfI-ur-iTv" secondAttribute="bottom" constant="64" id="ACQ-BV-vTY"/>
+                            <constraint firstItem="lkx-vj-u6D" firstAttribute="trailing" secondItem="0K5-0r-hpW" secondAttribute="trailing" constant="56" id="DoF-OP-d2r"/>
+                            <constraint firstItem="VBW-mN-zGG" firstAttribute="leading" secondItem="lkx-vj-u6D" secondAttribute="leading" constant="30" id="FU4-0W-3vY"/>
+                            <constraint firstItem="lkx-vj-u6D" firstAttribute="trailing" secondItem="zNt-CH-97f" secondAttribute="trailing" constant="52" id="Ga2-mQ-RvD"/>
+                            <constraint firstItem="lkx-vj-u6D" firstAttribute="bottom" secondItem="0K5-0r-hpW" secondAttribute="bottom" constant="125" id="IPb-2F-pHX"/>
+                            <constraint firstItem="D7w-gz-eXT" firstAttribute="top" secondItem="RP8-0Q-0Gr" secondAttribute="bottom" constant="37" id="MYo-H7-7fE"/>
+                            <constraint firstItem="RP8-0Q-0Gr" firstAttribute="top" secondItem="VBW-mN-zGG" secondAttribute="bottom" constant="80" id="ZpR-fz-v8Y"/>
+                            <constraint firstItem="0K5-0r-hpW" firstAttribute="leading" secondItem="lkx-vj-u6D" secondAttribute="leading" constant="56" id="btU-Ed-Gas"/>
+                            <constraint firstItem="vra-kc-ULK" firstAttribute="top" secondItem="lH6-9D-B6i" secondAttribute="bottom" constant="24.5" id="clf-ac-2Mj"/>
+                            <constraint firstItem="opU-7L-lVK" firstAttribute="top" secondItem="D7w-gz-eXT" secondAttribute="bottom" constant="48" id="eV6-BP-Fx2"/>
+                            <constraint firstItem="lkx-vj-u6D" firstAttribute="trailing" secondItem="D7w-gz-eXT" secondAttribute="trailing" constant="77" id="fW0-sW-wNQ"/>
+                            <constraint firstItem="lkx-vj-u6D" firstAttribute="trailing" secondItem="VBW-mN-zGG" secondAttribute="trailing" constant="296" id="fho-Wo-YKD"/>
+                            <constraint firstItem="D7w-gz-eXT" firstAttribute="leading" secondItem="lkx-vj-u6D" secondAttribute="leading" constant="77" id="g9G-tL-fwm"/>
+                            <constraint firstItem="lkx-vj-u6D" firstAttribute="trailing" secondItem="RP8-0Q-0Gr" secondAttribute="trailing" constant="97" id="k3V-K5-Sas"/>
+                            <constraint firstItem="opU-7L-lVK" firstAttribute="leading" secondItem="lkx-vj-u6D" secondAttribute="leading" constant="94" id="oZs-4i-ZQn"/>
+                            <constraint firstItem="lkx-vj-u6D" firstAttribute="trailing" secondItem="XfI-ur-iTv" secondAttribute="trailing" constant="55" id="obP-4g-dC8"/>
+                            <constraint firstItem="lH6-9D-B6i" firstAttribute="leading" secondItem="lkx-vj-u6D" secondAttribute="leading" constant="94" id="oi6-xO-Umx"/>
+                            <constraint firstItem="lkx-vj-u6D" firstAttribute="trailing" secondItem="lH6-9D-B6i" secondAttribute="trailing" constant="94" id="tA1-PF-TAG"/>
+                            <constraint firstItem="0K5-0r-hpW" firstAttribute="top" secondItem="vra-kc-ULK" secondAttribute="bottom" constant="8" symbolic="YES" id="tJR-Uq-se4"/>
+                            <constraint firstItem="zNt-CH-97f" firstAttribute="top" secondItem="opU-7L-lVK" secondAttribute="bottom" constant="8" symbolic="YES" id="u6z-aP-GKh"/>
+                            <constraint firstItem="lkx-vj-u6D" firstAttribute="trailing" secondItem="opU-7L-lVK" secondAttribute="trailing" constant="94" id="uiI-VD-l5y"/>
+                            <constraint firstItem="XfI-ur-iTv" firstAttribute="top" secondItem="zNt-CH-97f" secondAttribute="bottom" constant="8" symbolic="YES" id="xFd-6Q-fvq"/>
+                            <constraint firstItem="RP8-0Q-0Gr" firstAttribute="leading" secondItem="lkx-vj-u6D" secondAttribute="leading" constant="97" id="yyy-mR-zrk"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="yUJ-g2-Lok"/>
                 </viewController>
@@ -174,18 +205,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Long Intervals ⏳" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIh-Rs-ZcP">
-                                <rect key="frame" x="107" y="126" width="207" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Long Intervals ⏳" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIh-Rs-ZcP">
+                                <rect key="frame" x="96" y="126" width="222" height="31"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="26"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzH-5k-pwW">
-                                <rect key="frame" x="183" y="347" width="50" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzH-5k-pwW">
+                                <rect key="frame" x="154" y="352" width="106" height="40"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Reset"/>
                                 <userDefinedRuntimeAttributes>
@@ -199,12 +228,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erf-yU-66C">
-                                <rect key="frame" x="89" y="297" width="80" height="28"/>
+                                <rect key="frame" x="110" y="290" width="123" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Start Timer"/>
+                                <state key="normal" title="Start/Resume"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -215,34 +244,31 @@
                                     <action selector="startTimerTapped:" destination="IbQ-Mu-Ta5" eventType="touchUpInside" id="cGt-As-JhM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Work Time: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlL-yS-dRT">
-                                <rect key="frame" x="165" y="176" width="87" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Work Time: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlL-yS-dRT">
+                                <rect key="frame" x="154" y="179" width="106" height="22"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.78458535669999996" green="0.54447329040000003" blue="0.26533854010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Break Time: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIu-nq-jq7">
-                                <rect key="frame" x="164" y="491" width="92" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Break Time: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIu-nq-jq7">
+                                <rect key="frame" x="149" y="492" width="116" height="22"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vg0-MS-h8Q">
-                                <rect key="frame" x="179" y="535" width="54" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vg0-MS-h8Q">
+                                <rect key="frame" x="180" y="534" width="46" height="37"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPx-ib-IKT">
-                                <rect key="frame" x="89" y="630" width="80" height="28"/>
+                                <rect key="frame" x="110" y="595" width="123" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Start Timer"/>
+                                <state key="normal" title="Start/Resume"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -254,10 +280,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HvC-eU-rGo">
-                                <rect key="frame" x="270" y="629" width="44" height="28"/>
+                                <rect key="frame" x="252" y="595" width="54" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Pause"/>
                                 <userDefinedRuntimeAttributes>
@@ -271,10 +297,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8c-io-u78">
-                                <rect key="frame" x="183" y="695" width="50" height="28"/>
+                                <rect key="frame" x="162" y="659" width="93" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Reset"/>
                                 <userDefinedRuntimeAttributes>
@@ -287,40 +313,39 @@
                                     <action selector="resetBreakTapped:" destination="I7G-NC-85a" eventType="touchUpInside" id="kui-gK-NJm"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICY-3t-hIm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICY-3t-hIm">
                                 <rect key="frame" x="249" y="235" width="62" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUB-7B-aqc">
-                                <rect key="frame" x="238" y="543" width="62" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUB-7B-aqc">
+                                <rect key="frame" x="244" y="543" width="62" height="18"/>
                                 <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjl-zY-9TF">
-                                <rect key="frame" x="29" y="38" width="13" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="chevron.left" catalog="system"/>
-                                <connections>
-                                    <segue destination="WeU-UD-bRh" kind="show" id="XIn-Tb-CEO"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVG-4l-2iw">
-                                <rect key="frame" x="183" y="225" width="46" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVG-4l-2iw">
+                                <rect key="frame" x="182" y="220" width="52" height="48"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fjl-zY-9TF">
+                                <rect key="frame" x="33" y="50" width="32" height="22"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="chevron.left" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WeU-UD-bRh" kind="presentation" modalPresentationStyle="fullScreen" id="XIn-Tb-CEO"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUz-Ih-jBt">
-                                <rect key="frame" x="269" y="297" width="45" height="28"/>
+                                <rect key="frame" x="252" y="289" width="54" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Pause"/>
                                 <userDefinedRuntimeAttributes>
@@ -336,6 +361,28 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="U93-Up-ijj"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EIh-Rs-ZcP" firstAttribute="leading" secondItem="U93-Up-ijj" secondAttribute="leading" constant="96" id="26B-y5-RzD"/>
+                            <constraint firstItem="ICY-3t-hIm" firstAttribute="leading" secondItem="MVG-4l-2iw" secondAttribute="trailing" constant="15" id="9ZI-XD-xEX"/>
+                            <constraint firstItem="gUB-7B-aqc" firstAttribute="leading" secondItem="Vg0-MS-h8Q" secondAttribute="trailing" constant="18" id="Arh-KD-dhb"/>
+                            <constraint firstItem="fjl-zY-9TF" firstAttribute="top" secondItem="U93-Up-ijj" secondAttribute="top" constant="6" id="BQw-DO-yzX"/>
+                            <constraint firstItem="U93-Up-ijj" firstAttribute="trailing" secondItem="ICY-3t-hIm" secondAttribute="trailing" constant="103" id="GV0-MS-wLI"/>
+                            <constraint firstItem="Vg0-MS-h8Q" firstAttribute="leading" secondItem="U93-Up-ijj" secondAttribute="leading" constant="180" id="Hsd-D0-K3o"/>
+                            <constraint firstItem="gUB-7B-aqc" firstAttribute="leading" secondItem="Vg0-MS-h8Q" secondAttribute="trailing" constant="18" id="MHI-6f-Dih"/>
+                            <constraint firstItem="U93-Up-ijj" firstAttribute="trailing" secondItem="fjl-zY-9TF" secondAttribute="trailing" constant="349" id="a6h-AO-N6c"/>
+                            <constraint firstItem="U93-Up-ijj" firstAttribute="trailing" secondItem="gUB-7B-aqc" secondAttribute="trailing" constant="108" id="cJ6-sP-wLD"/>
+                            <constraint firstItem="ICY-3t-hIm" firstAttribute="leading" secondItem="MVG-4l-2iw" secondAttribute="trailing" constant="15" id="cs8-TX-LaE"/>
+                            <constraint firstItem="MVG-4l-2iw" firstAttribute="leading" secondItem="U93-Up-ijj" secondAttribute="leading" constant="182" id="fam-vF-TXK"/>
+                            <constraint firstItem="U93-Up-ijj" firstAttribute="trailing" secondItem="tlL-yS-dRT" secondAttribute="trailing" constant="154" id="khq-RT-Bbt"/>
+                            <constraint firstItem="fjl-zY-9TF" firstAttribute="leading" secondItem="U93-Up-ijj" secondAttribute="leading" constant="33" id="mZm-xj-hXE"/>
+                            <constraint firstItem="EIh-Rs-ZcP" firstAttribute="top" secondItem="U93-Up-ijj" secondAttribute="top" constant="82" id="o2s-sB-Qou"/>
+                            <constraint firstItem="tlL-yS-dRT" firstAttribute="leading" secondItem="U93-Up-ijj" secondAttribute="leading" constant="154" id="qFK-a3-B9k"/>
+                            <constraint firstItem="UIu-nq-jq7" firstAttribute="leading" secondItem="U93-Up-ijj" secondAttribute="leading" constant="149" id="r7m-LQ-zU8"/>
+                            <constraint firstItem="U93-Up-ijj" firstAttribute="trailing" secondItem="EIh-Rs-ZcP" secondAttribute="trailing" constant="96" id="tNt-iY-0RR"/>
+                            <constraint firstItem="U93-Up-ijj" firstAttribute="trailing" secondItem="UIu-nq-jq7" secondAttribute="trailing" constant="149" id="uQg-yH-jXs"/>
+                            <constraint firstItem="U93-Up-ijj" firstAttribute="trailing" secondItem="rzH-5k-pwW" secondAttribute="trailing" constant="154" id="uWv-E9-2bF"/>
+                            <constraint firstItem="rzH-5k-pwW" firstAttribute="leading" secondItem="U93-Up-ijj" secondAttribute="leading" constant="154" id="zWa-Ys-YZM"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hdE-vQ-AFU"/>
                     <connections>
@@ -356,24 +403,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pomodoro Technique 🍅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t5W-84-qfK">
-                                <rect key="frame" x="61" y="134" width="296" height="30"/>
+                                <rect key="frame" x="56" y="134" width="307" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="25"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="26"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="25" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZi-dq-Gty">
-                                <rect key="frame" x="170" y="241" width="64" height="37"/>
+                                <rect key="frame" x="170" y="240" width="64" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fs-52-pCh">
-                                <rect key="frame" x="246" y="313" width="52" height="28"/>
+                                <rect key="frame" x="235" y="300" width="83" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Pause"/>
                                 <userDefinedRuntimeAttributes>
@@ -386,10 +433,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIg-Ml-Tc0">
-                                <rect key="frame" x="180" y="363" width="49" height="28"/>
+                                <rect key="frame" x="159" y="359" width="90" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Reset"/>
                                 <userDefinedRuntimeAttributes>
@@ -402,12 +449,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Us-zx-wKz">
-                                <rect key="frame" x="84" y="313" width="85" height="28"/>
+                                <rect key="frame" x="56" y="301" width="155" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Start Timer"/>
+                                <state key="normal" title="Start/Resume"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -418,33 +465,33 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Work Time: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kip-6w-56q">
-                                <rect key="frame" x="162" y="192" width="87" height="18"/>
+                                <rect key="frame" x="155" y="190" width="104" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Break Time: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJS-yO-HrV">
-                                <rect key="frame" x="161" y="507" width="92" height="18"/>
+                                <rect key="frame" x="155" y="506" width="110" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uaj-yi-IZ7">
-                                <rect key="frame" x="175" y="551" width="54" height="37"/>
+                                <rect key="frame" x="180" y="550" width="54" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="35"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dz5-M3-GWu">
-                                <rect key="frame" x="84" y="646" width="85" height="28"/>
+                                <rect key="frame" x="56" y="607" width="155" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Start Timer"/>
+                                <state key="normal" title="Start/Resume"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="15"/>
@@ -455,10 +502,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfP-ep-81d">
-                                <rect key="frame" x="246" y="646" width="52" height="28"/>
+                                <rect key="frame" x="235" y="606" width="83" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Pause"/>
                                 <userDefinedRuntimeAttributes>
@@ -471,10 +518,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdY-xY-kfz">
-                                <rect key="frame" x="180" y="708" width="49" height="28"/>
+                                <rect key="frame" x="159" y="665" width="90" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Reset"/>
                                 <userDefinedRuntimeAttributes>
@@ -501,8 +548,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPs-ws-QMn">
-                                <rect key="frame" x="28" y="46" width="13" height="22"/>
+                                <rect key="frame" x="34" y="55" width="13" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="chevron.backward" catalog="system"/>
                                 <connections>
                                     <segue destination="WeU-UD-bRh" kind="presentation" modalPresentationStyle="fullScreen" id="30y-O3-WId"/>
@@ -531,6 +579,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.99607843137254903" green="0.98039215686274506" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="E5y-X6-Tb4">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
@@ -549,11 +598,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Goals" id="5DX-LU-D5R">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.backward" catalog="system" id="jrP-p6-CMe">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="bvN-qh-mYk"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="+ Add Goal" id="P5o-Jd-V8j">
+                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="P5o-Jd-V8j">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="YlP-Sf-Mfx" kind="presentation" modalPresentationStyle="fullScreen" id="msX-Kc-ZLq"/>
                             </connections>
@@ -572,28 +623,25 @@
             <objects>
                 <viewController id="mPr-2i-Oyz" customClass="CompleteGoalViewController" customModule="Github_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qmp-dt-MyR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdN-Dg-OII">
-                                <rect key="frame" x="121" y="119" width="173" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="25"/>
-                                <color key="textColor" red="0.066970159465320214" green="0.31098914868903882" blue="0.060058474390868505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdN-Dg-OII">
+                                <rect key="frame" x="120" y="31" width="174" height="31"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="26"/>
+                                <color key="textColor" red="0.070969593150453786" green="0.1489144100083245" blue="0.049627402358620364" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why do you want to accomplish this?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfC-Gb-J8O">
-                                <rect key="frame" x="75" y="363" width="274" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why do you want to accomplish this?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfC-Gb-J8O">
+                                <rect key="frame" x="29" y="289" width="356" height="23"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="19"/>
                                 <color key="textColor" red="0.74114996190000004" green="0.46187418699999999" blue="0.13691925999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wh-Mf-PiU">
-                                <rect key="frame" x="129" y="737" width="156" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wh-Mf-PiU">
+                                <rect key="frame" x="94" y="671" width="225" height="36"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Mark As Completed"/>
                                 <userDefinedRuntimeAttributes>
@@ -605,25 +653,28 @@
                                     <action selector="completeTapped:" destination="mPr-2i-Oyz" eventType="touchUpInside" id="Dra-FU-H7C"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="name of task" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBf-BZ-epk">
-                                <rect key="frame" x="78" y="228" width="257" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name of task" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBf-BZ-epk">
+                                <rect key="frame" x="78" y="140" width="258" height="21.5"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="meaning behind task " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTH-2l-paK">
-                                <rect key="frame" x="78" y="392" width="257" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you want to accomplish?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtA-4R-1np">
+                                <rect key="frame" x="41" y="97" width="332" height="24"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="20"/>
+                                <color key="textColor" red="0.78075867889999995" green="0.55239915849999999" blue="0.2318712473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="meaning behind task " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTH-2l-paK">
+                                <rect key="frame" x="78" y="320" width="258" height="21.5"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p6y-DO-2CT">
-                                <rect key="frame" x="144" y="602" width="125" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p6y-DO-2CT">
+                                <rect key="frame" x="115" y="502" width="184" height="34"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="View Milestones"/>
                                 <userDefinedRuntimeAttributes>
@@ -635,16 +686,32 @@
                                     <segue destination="C9U-2f-lfL" kind="presentation" modalPresentationStyle="fullScreen" id="0N7-iA-6F2"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What do you want to accomplish?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtA-4R-1np">
-                                <rect key="frame" x="86" y="187" width="248" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
-                                <color key="textColor" red="0.78075867889999995" green="0.55239915849999999" blue="0.2318712473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pob-T9-yLu"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wTH-2l-paK" firstAttribute="top" secondItem="cfC-Gb-J8O" secondAttribute="bottom" constant="8" symbolic="YES" id="005-yx-Wk9"/>
+                            <constraint firstItem="wtA-4R-1np" firstAttribute="leading" secondItem="pob-T9-yLu" secondAttribute="leading" constant="41" id="3Oy-5s-g4U"/>
+                            <constraint firstItem="wTH-2l-paK" firstAttribute="leading" secondItem="pob-T9-yLu" secondAttribute="leading" constant="78" id="6uS-zs-8xK"/>
+                            <constraint firstItem="hdN-Dg-OII" firstAttribute="leading" secondItem="pob-T9-yLu" secondAttribute="leading" constant="120" id="AKl-wu-9Xv"/>
+                            <constraint firstItem="pob-T9-yLu" firstAttribute="trailing" secondItem="cfC-Gb-J8O" secondAttribute="trailing" constant="29" id="FDs-WS-JLR"/>
+                            <constraint firstItem="wtA-4R-1np" firstAttribute="top" secondItem="hdN-Dg-OII" secondAttribute="bottom" constant="35" id="JYZ-cf-pfb"/>
+                            <constraint firstItem="p6y-DO-2CT" firstAttribute="leading" secondItem="pob-T9-yLu" secondAttribute="leading" constant="115" id="K3g-zL-IK1"/>
+                            <constraint firstItem="cfC-Gb-J8O" firstAttribute="top" secondItem="vBf-BZ-epk" secondAttribute="bottom" constant="127.5" id="Nh7-R8-GMW"/>
+                            <constraint firstItem="7Wh-Mf-PiU" firstAttribute="leading" secondItem="pob-T9-yLu" secondAttribute="leading" constant="94" id="QFQ-8C-9E1"/>
+                            <constraint firstItem="hdN-Dg-OII" firstAttribute="top" secondItem="pob-T9-yLu" secondAttribute="top" constant="31" id="WkH-uG-kby"/>
+                            <constraint firstItem="vBf-BZ-epk" firstAttribute="top" secondItem="wtA-4R-1np" secondAttribute="bottom" constant="19" id="X2x-Jp-rtU"/>
+                            <constraint firstItem="p6y-DO-2CT" firstAttribute="top" secondItem="wTH-2l-paK" secondAttribute="bottom" constant="160.5" id="ao2-bp-eRM"/>
+                            <constraint firstItem="pob-T9-yLu" firstAttribute="trailing" secondItem="p6y-DO-2CT" secondAttribute="trailing" constant="115" id="bhQ-xo-1f2"/>
+                            <constraint firstItem="pob-T9-yLu" firstAttribute="trailing" secondItem="hdN-Dg-OII" secondAttribute="trailing" constant="120" id="bjf-kz-6vo"/>
+                            <constraint firstItem="pob-T9-yLu" firstAttribute="trailing" secondItem="wtA-4R-1np" secondAttribute="trailing" constant="41" id="fCe-xy-mzf"/>
+                            <constraint firstItem="pob-T9-yLu" firstAttribute="trailing" secondItem="vBf-BZ-epk" secondAttribute="trailing" constant="78" id="gJg-HN-pCq"/>
+                            <constraint firstItem="pob-T9-yLu" firstAttribute="trailing" secondItem="7Wh-Mf-PiU" secondAttribute="trailing" constant="95" id="h33-hY-4ul"/>
+                            <constraint firstItem="pob-T9-yLu" firstAttribute="trailing" secondItem="wTH-2l-paK" secondAttribute="trailing" constant="78" id="lU4-Va-ipd"/>
+                            <constraint firstItem="vBf-BZ-epk" firstAttribute="leading" secondItem="pob-T9-yLu" secondAttribute="leading" constant="78" id="rSD-bw-fLA"/>
+                            <constraint firstItem="pob-T9-yLu" firstAttribute="bottom" secondItem="7Wh-Mf-PiU" secondAttribute="bottom" constant="101" id="sN6-wR-nFo"/>
+                            <constraint firstItem="cfC-Gb-J8O" firstAttribute="leading" secondItem="pob-T9-yLu" secondAttribute="leading" constant="29" id="yoG-RX-Mhe"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="46T-Ew-1qk"/>
                     <connections>
@@ -664,44 +731,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOQ-50-Adn">
-                                <rect key="frame" x="168" y="114" width="86" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOQ-50-Adn">
+                                <rect key="frame" x="159" y="113" width="96" height="31"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="26"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What do you want to accomplish? 🤔" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kC1-iv-g7K">
-                                <rect key="frame" x="76" y="197" width="272" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you want to accomplish? 🤔" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kC1-iv-g7K">
+                                <rect key="frame" x="40" y="199" width="334" height="19"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="16"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Why do you want to accomplish this? ❤️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNT-fz-8Fb">
-                                <rect key="frame" x="64" y="351" width="298" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why do you want to accomplish this? ❤️" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNT-fz-8Fb">
+                                <rect key="frame" x="29" y="313" width="356" height="19"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="16"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OM1-xC-xrj">
-                                <rect key="frame" x="79" y="226" width="257" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OM1-xC-xrj">
+                                <rect key="frame" x="79" y="226" width="256" height="34"/>
+                                <color key="backgroundColor" red="1" green="0.98748628130000005" blue="0.92342892470000004" alpha="0.97936870249999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Asq-Is-hKz">
-                                <rect key="frame" x="79" y="380" width="257" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVL-kr-r53">
-                                <rect key="frame" x="135" y="745" width="138" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eN-vc-ecO">
+                                <rect key="frame" x="127" y="507.5" width="160" height="34"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Add Milestones"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="C9U-2f-lfL" kind="presentation" modalPresentationStyle="fullScreen" id="5dS-wi-tM5"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Divide your goal into smaller tasks by adding milestones!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRZ-R1-mAr">
+                                <rect key="frame" x="20" y="459" width="374" height="40.5"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="17"/>
+                                <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROK-RU-EXZ">
+                                <rect key="frame" x="36" y="59" width="67" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title=" Goals" image="chevron.backward" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="icz-z3-4I6" kind="presentation" modalPresentationStyle="fullScreen" id="VcU-Ob-mjP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVL-kr-r53">
+                                <rect key="frame" x="127" y="747" width="160" height="36"/>
+                                <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Add to Goals"/>
                                 <userDefinedRuntimeAttributes>
@@ -713,32 +804,42 @@
                                     <action selector="addTapped:" destination="YlP-Sf-Mfx" eventType="touchUpInside" id="79Y-Eo-Elk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eN-vc-ecO">
-                                <rect key="frame" x="135" y="565" width="138" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Add milestones"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="C9U-2f-lfL" kind="presentation" modalPresentationStyle="fullScreen" id="5dS-wi-tM5"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Divide your goal into smaller tasks by adding milestones!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRZ-R1-mAr">
-                                <rect key="frame" x="20" y="491" width="374" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
-                                <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Asq-Is-hKz">
+                                <rect key="frame" x="76" y="340" width="262" height="34"/>
+                                <color key="backgroundColor" red="1" green="0.98748628130000005" blue="0.92342892470000004" alpha="0.97936870249999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="w1M-rz-6Lf"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Asq-Is-hKz" firstAttribute="leading" secondItem="w1M-rz-6Lf" secondAttribute="leading" constant="76" id="2QH-qx-uVj"/>
+                            <constraint firstItem="w1M-rz-6Lf" firstAttribute="bottom" secondItem="SVL-kr-r53" secondAttribute="bottom" constant="79" id="3vP-1s-e63"/>
+                            <constraint firstItem="w1M-rz-6Lf" firstAttribute="trailing" secondItem="kC1-iv-g7K" secondAttribute="trailing" constant="40" id="BAr-Jx-Dn6"/>
+                            <constraint firstItem="kC1-iv-g7K" firstAttribute="top" secondItem="gOQ-50-Adn" secondAttribute="bottom" constant="55" id="FT5-cJ-j50"/>
+                            <constraint firstItem="WRZ-R1-mAr" firstAttribute="leading" secondItem="w1M-rz-6Lf" secondAttribute="leading" constant="20" id="Fty-oL-njF"/>
+                            <constraint firstItem="w1M-rz-6Lf" firstAttribute="trailing" secondItem="gOQ-50-Adn" secondAttribute="trailing" constant="159" id="GEr-cv-iAW"/>
+                            <constraint firstItem="jNT-fz-8Fb" firstAttribute="leading" secondItem="w1M-rz-6Lf" secondAttribute="leading" constant="29" id="GHV-ZY-Xgi"/>
+                            <constraint firstItem="OM1-xC-xrj" firstAttribute="leading" secondItem="w1M-rz-6Lf" secondAttribute="leading" constant="79" id="ICN-bb-IK4"/>
+                            <constraint firstItem="Asq-Is-hKz" firstAttribute="top" secondItem="jNT-fz-8Fb" secondAttribute="bottom" constant="8" symbolic="YES" id="JyS-GF-K3S"/>
+                            <constraint firstItem="w1M-rz-6Lf" firstAttribute="trailing" secondItem="SVL-kr-r53" secondAttribute="trailing" constant="127" id="Lct-JV-O4H"/>
+                            <constraint firstItem="SVL-kr-r53" firstAttribute="leading" secondItem="w1M-rz-6Lf" secondAttribute="leading" constant="127" id="PCt-zN-3Fg"/>
+                            <constraint firstItem="w1M-rz-6Lf" firstAttribute="trailing" secondItem="WRZ-R1-mAr" secondAttribute="trailing" constant="20" id="ULg-hc-c3S"/>
+                            <constraint firstItem="0eN-vc-ecO" firstAttribute="leading" secondItem="w1M-rz-6Lf" secondAttribute="leading" constant="127" id="Vvd-p4-TdS"/>
+                            <constraint firstItem="w1M-rz-6Lf" firstAttribute="trailing" secondItem="OM1-xC-xrj" secondAttribute="trailing" constant="79" id="Xv4-jO-GDV"/>
+                            <constraint firstItem="w1M-rz-6Lf" firstAttribute="trailing" secondItem="0eN-vc-ecO" secondAttribute="trailing" constant="127" id="ZT7-Ru-kcG"/>
+                            <constraint firstItem="kC1-iv-g7K" firstAttribute="leading" secondItem="w1M-rz-6Lf" secondAttribute="leading" constant="40" id="Zaa-qR-TCN"/>
+                            <constraint firstItem="OM1-xC-xrj" firstAttribute="top" secondItem="kC1-iv-g7K" secondAttribute="bottom" constant="8" symbolic="YES" id="emh-5E-gQe"/>
+                            <constraint firstItem="gOQ-50-Adn" firstAttribute="leading" secondItem="w1M-rz-6Lf" secondAttribute="leading" constant="159" id="f9V-ea-cGi"/>
+                            <constraint firstItem="w1M-rz-6Lf" firstAttribute="trailing" secondItem="jNT-fz-8Fb" secondAttribute="trailing" constant="29" id="gkB-tO-gjE"/>
+                            <constraint firstItem="gOQ-50-Adn" firstAttribute="top" secondItem="w1M-rz-6Lf" secondAttribute="top" constant="69" id="hnq-PN-Kbh"/>
+                            <constraint firstItem="w1M-rz-6Lf" firstAttribute="trailing" secondItem="Asq-Is-hKz" secondAttribute="trailing" constant="76" id="jrK-Yd-ilv"/>
+                            <constraint firstItem="0eN-vc-ecO" firstAttribute="top" secondItem="WRZ-R1-mAr" secondAttribute="bottom" constant="8" symbolic="YES" id="mIF-dI-Npt"/>
+                            <constraint firstItem="WRZ-R1-mAr" firstAttribute="top" secondItem="Asq-Is-hKz" secondAttribute="bottom" constant="85" id="oV7-U0-vTY"/>
+                            <constraint firstItem="jNT-fz-8Fb" firstAttribute="top" secondItem="OM1-xC-xrj" secondAttribute="bottom" constant="53" id="rks-hH-iVB"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="co0-d8-6FX"/>
                     <connections>
@@ -760,6 +861,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexBackgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifierMilestone" id="vu6-Es-MTi">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
@@ -778,11 +881,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Milestones" id="6cm-x4-leC">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.backward" catalog="system" id="qZS-TL-Nmo">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="YlP-Sf-Mfx" kind="presentation" modalPresentationStyle="fullScreen" id="Pit-Ch-Mrd"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="qws-Tj-d2n">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="pzD-gi-xDX" kind="presentation" modalPresentationStyle="fullScreen" id="bf9-x8-iTq"/>
                             </connections>
@@ -804,18 +909,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Milestone Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPW-wK-MCr">
-                                <rect key="frame" x="87" y="131" width="245" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="15"/>
-                                <color key="textColor" red="0.066970159469999999" green="0.3109891487" blue="0.060058474389999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Milestone Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPW-wK-MCr">
+                                <rect key="frame" x="85" y="273" width="244" height="24"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="20"/>
+                                <color key="textColor" red="0.73725490196078436" green="0.43529411764705883" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hka-Yp-bh8">
-                                <rect key="frame" x="135" y="518" width="148" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hka-Yp-bh8">
+                                <rect key="frame" x="90" y="491" width="234" height="36"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="13"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Mark As Completed"/>
                                 <userDefinedRuntimeAttributes>
@@ -830,6 +933,15 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mk2-5e-p6p"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="0.97936870249999997" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="mk2-5e-p6p" firstAttribute="trailing" secondItem="aPW-wK-MCr" secondAttribute="trailing" constant="85" id="Ib1-Qd-b09"/>
+                            <constraint firstItem="aPW-wK-MCr" firstAttribute="leading" secondItem="mk2-5e-p6p" secondAttribute="leading" constant="85" id="Zgu-S6-E9c"/>
+                            <constraint firstItem="Hka-Yp-bh8" firstAttribute="leading" secondItem="mk2-5e-p6p" secondAttribute="leading" constant="90" id="bxE-4M-VAv"/>
+                            <constraint firstItem="aPW-wK-MCr" firstAttribute="top" secondItem="mk2-5e-p6p" secondAttribute="top" constant="185" id="oLu-tl-qGO"/>
+                            <constraint firstItem="mk2-5e-p6p" firstAttribute="trailing" secondItem="Hka-Yp-bh8" secondAttribute="trailing" constant="90" id="pIT-KP-tXm"/>
+                            <constraint firstItem="mk2-5e-p6p" firstAttribute="bottom" secondItem="Hka-Yp-bh8" secondAttribute="bottom" constant="335" id="v3D-y2-x4T"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QvR-oE-HUd"/>
                     <connections>
@@ -848,24 +960,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Milestone Title: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueu-sI-95N">
-                                <rect key="frame" x="121" y="142" width="173" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Milestone Title: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueu-sI-95N">
+                                <rect key="frame" x="88" y="140" width="238" height="31"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="26"/>
                                 <color key="textColor" red="0.73581541429999997" green="0.43356559010000001" blue="0.13810753570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u1N-bG-fur">
-                                <rect key="frame" x="85" y="193" width="244" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkp-su-e5t">
-                                <rect key="frame" x="128" y="517" width="159" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkp-su-e5t">
+                                <rect key="frame" x="117" y="582" width="180" height="36"/>
                                 <color key="backgroundColor" red="0.80179011820000001" green="0.81654697659999997" blue="0.6793103814" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="20"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Add Milestone"/>
                                 <userDefinedRuntimeAttributes>
@@ -877,9 +981,26 @@
                                     <action selector="addMilestoneTapped:" destination="pzD-gi-xDX" eventType="touchUpInside" id="w2e-iy-XZl"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u1N-bG-fur">
+                                <rect key="frame" x="85" y="193" width="244" height="34"/>
+                                <color key="backgroundColor" red="1" green="0.98748628129976412" blue="0.92342892474601324" alpha="0.97936870246533525" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Pdc-HS-HJu"/>
                         <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Pdc-HS-HJu" firstAttribute="bottom" secondItem="fkp-su-e5t" secondAttribute="bottom" constant="244" id="28t-Ds-y2g"/>
+                            <constraint firstItem="ueu-sI-95N" firstAttribute="leading" secondItem="Pdc-HS-HJu" secondAttribute="leading" constant="88" id="9Kp-Xk-oPf"/>
+                            <constraint firstItem="Pdc-HS-HJu" firstAttribute="trailing" secondItem="ueu-sI-95N" secondAttribute="trailing" constant="88" id="9uV-pJ-WJU"/>
+                            <constraint firstItem="Pdc-HS-HJu" firstAttribute="trailing" secondItem="fkp-su-e5t" secondAttribute="trailing" constant="117" id="Nzu-ef-qnp"/>
+                            <constraint firstItem="u1N-bG-fur" firstAttribute="leading" secondItem="Pdc-HS-HJu" secondAttribute="leading" constant="85" id="U5G-d4-7iI"/>
+                            <constraint firstItem="Pdc-HS-HJu" firstAttribute="trailing" secondItem="u1N-bG-fur" secondAttribute="trailing" constant="85" id="g50-6L-CVx"/>
+                            <constraint firstItem="ueu-sI-95N" firstAttribute="top" secondItem="Pdc-HS-HJu" secondAttribute="top" constant="96" id="kMC-77-Rec"/>
+                            <constraint firstItem="u1N-bG-fur" firstAttribute="top" secondItem="ueu-sI-95N" secondAttribute="bottom" constant="22" id="s0c-tV-xEC"/>
+                            <constraint firstItem="fkp-su-e5t" firstAttribute="leading" secondItem="Pdc-HS-HJu" secondAttribute="leading" constant="117" id="wc8-GY-h5H"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="titleTextField" destination="u1N-bG-fur" id="JoJ-hQ-w3W"/>
@@ -930,9 +1051,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Y17-p6-CfW"/>
-        <segue reference="vWD-wj-U1Y"/>
-        <segue reference="Pit-Ch-Mrd"/>
+        <segue reference="0N7-iA-6F2"/>
+        <segue reference="VcU-Ob-mjP"/>
+        <segue reference="msX-Kc-ZLq"/>
         <segue reference="XIn-Tb-CEO"/>
         <segue reference="cT9-AV-yMp"/>
     </inferredMetricsTieBreakers>
